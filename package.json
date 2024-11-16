@@ -1,0 +1,14 @@
+{
+  "name": "a5-frontend-framework-bootstrap",
+  "version": "1.0.0",
+  "description": "A5 Frontend Framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "Maia Johnson, Nirmal Loka",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

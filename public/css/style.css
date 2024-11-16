@@ -1,0 +1,37 @@
+/* Sidebar Styles */
+.sidebar {
+    background-color: #2d2d2d;
+    color: #fff;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+.sidebar .nav-link {
+    color: #ddd;
+    font-size: 0.95rem;
+}
+.sidebar .nav-link:hover {
+    color: #fff;
+    background-color: #444;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    background-color: #f7f8fa;
+    min-height: 100vh;
+}
+.header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.stats-number {
+    font-size: 2rem;
+    font-weight: bold;
+}
