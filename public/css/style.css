@@ -61,9 +61,10 @@ main {
     /* width: 900px;*/
     /* flex it for resizing */
     background-image: url(../assets/images/full-graph.png);
-    background-size:cover;
+    background-size: contain;
     width:100%;
     background-color: #f8f9fa;
+    border: none;
 }
 
 
@@ -77,6 +78,7 @@ main {
     align-self: stretch;
 }
 
+/* Task buttons */
 #new-badge {
     background-color: #FEC400;
     color: white;
