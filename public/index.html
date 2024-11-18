@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Sidebar -->
+    
+    <section class="container-fluid">
+        <section class="row">
+            <!-- Make Navbar Fixed -->
+            <!-- Nav Sidebar -->
             <nav class="col-md-2 sidebar d-none d-md-block bg-dark text-white">
                 <h4 class="text-center py-3">Dashboard Kit</h4>
                 <ul class="nav flex-column">
@@ -32,6 +34,7 @@
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Articles</a>
                     </li>
+                    <hr>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Settings</a>
                     </li>
@@ -42,144 +45,175 @@
             </nav>
 
             <!-- Main Content -->
-            <main class="col-md-10">
+            <main class="col-md-10 p-4">
                 <!-- Header -->
-                <div class="d-flex justify-content-between align-items-center py-3">
+                <section class="d-flex justify-content-between align-items-center py-5 px-3">
+                    <!-- divs removed -->
                     <h2>Overview</h2>
-                    <div class="d-flex align-items-center">
-                        <i class="fas fa-bell me-3"></i>
+                    <section class="d-flex">
+                        <div id="top-divider" class="vr" alt="verical divider"></div>
                         <img src="https://via.placeholder.com/40" alt="User" class="rounded-circle">
-                    </div>
-                </div>
+                    </section>
+                </section>
 
                 <!-- Overview Cards -->
-                <div class="row mb-4">
-                    <div class="col-sm-3">
-                        <div class="card text-center border-0 shadow-sm p-3">
+                <section class="row mb-4 d-flex justify-content-between align-items-center">
+                    <section class="col-sm-3">
+                        <section class="card text-center border-1 p-4">
                             <p class="text-muted">Unresolved</p>
                             <h3 class="fw-bold">60</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card text-center border-0 shadow-sm p-3">
+                        </section>
+                    </section>
+                    <section class="col-sm-3">
+                        <section class="card text-center border-1 p-4">
                             <p class="text-muted">Overdue</p>
                             <h3 class="fw-bold text-primary">16</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card text-center border-0 shadow-sm p-3">
+                        </section>
+                    </section>
+                    <section class="col-sm-3">
+                        <section class="card text-center border-1 p-4">
                             <p class="text-muted">Open</p>
                             <h3 class="fw-bold">43</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card text-center border-0 shadow-sm p-3">
+                        </section>
+                    </section>
+                    <section class="col-sm-3">
+                        <section class="card text-center border-1 p-4">
                             <p class="text-muted">On hold</p>
                             <h3 class="fw-bold">64</h3>
-                        </div>
-                    </div>
-                </div>
+                        </section>
+                    </section>
+                </section>
 
                 <!-- Today's Trends and Stats -->
-                <div class="row">
-                    <div class="col-lg-8 mb-4">
-                        <div class="card p-4">
+                <section class="card">
+                    <section class="row px-2">
+                        <!-- Section Header -->
+                        <section class="col-lg-8 p-5">
                             <h5 class="mb-3">Today's trends</h5>
                             <p class="text-muted mb-4">as of 25 May 2019, 09:41 PM</p>
-                            <div class="chart-placeholder" style="height: 300px; background-color: #f8f9fa;"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card p-4">
-                            <div class="d-flex justify-content-between">
-                                <p class="text-muted">Resolved</p>
-                                <p class="fw-bold">449</p>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                                <p class="text-muted">Received</p>
-                                <p class="fw-bold">426</p>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                                <p class="text-muted">Average first response time</p>
-                                <p class="fw-bold">33m</p>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                                <p class="text-muted">Average response time</p>
-                                <p class="fw-bold">3h 8m</p>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                                <p class="text-muted">Resolution within SLA</p>
-                                <p class="fw-bold">94%</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                            <div class="chart-placeholder"></div>
+                        </section>
+                        
+                        <div class="vr align-items-stretch" ></div>
+
+                        <section class="col d-flex flex-column justify-content-center align-items-center p-0">
+                            <p class="text-muted m-0">Resolved</p>
+                            <p class="fw-bold">449</p>
+                            <hr class="dark-divider">
+
+                            <p class="text-muted m-0">Received</p>
+                            <p class="fw-bold">426</p>
+                            <hr class="dark-divider">
+
+                            <p class="text-muted m-0">Average first response time</p>
+                            <p class="fw-bold">33m</p>
+                            <hr class="dark-divider">
+
+                            <p class="text-muted m-0">Average response time</p>
+                            <p class="fw-bold">3h 8m</p>
+                            <hr class="dark-divider">
+                            
+                            <p class="text-muted m-0">Resolution within SLA</p>
+                            <p class="fw-bold">94%</p>
+                        </section>
+                    </section>
+                </section>
 
                 <!-- Additional Content Blocks -->
-                <div class="row">
-                    <div class="col-lg-6 mb-4">
-                        <div class="card p-4">
-                            <div class="d-flex justify-content-between">
+                <section class="row pt-4">
+                    <section class="col-lg-6">
+                        <section class="card p-5">
+                            <!-- title -->
+                             <div class="d-flex flex-row justify-content-between">
                                 <h5>Unresolved tickets</h5>
                                 <a href="#" class="text-decoration-none">View details</a>
-                            </div>
+                             </div>
+                            <p>Group: <strong aria-label="bold">Support</strong></p>
+
                             <ul class="list-unstyled">
                                 <li class="d-flex justify-content-between py-2">
-                                    <span>Waiting on Feature Request</span>
-                                    <span>4238</span>
+                                    <p class="mt-4 m-0">Waiting on Feature Request</p>
+                                    <p class="mt-4 m-0">4238</p>
                                 </li>
+                                <hr class="dark-divider">
+
                                 <li class="d-flex justify-content-between py-2">
-                                    <span>Awaiting Customer Response</span>
-                                    <span>1005</span>
+                                    <p class="m-0">Awaiting Customer Response</p>
+                                    <p class="m-0">1005</p>
                                 </li>
+                                <hr class="dark-divider">
+
                                 <li class="d-flex justify-content-between py-2">
-                                    <span>Awaiting Developer Fix</span>
-                                    <span>914</span>
+                                    <p class="m-0">Awaiting Developer Fix</p>
+                                    <p class="m-0">914</p>
                                 </li>
+                                <hr class="dark-divider">
+
                                 <li class="d-flex justify-content-between py-2">
-                                    <span>Pending</span>
-                                    <span>281</span>
+                                    <p class="m-0">Pending</p>
+                                    <p class="m-0">281</p>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="card p-4">
-                            <div class="d-flex justify-content-between">
+                        </section>
+                    </section>
+
+                    <section class="col-lg-6">
+                        <section class="card p-5">
+                            <!-- title -->
+                            <div class="d-flex flex-row justify-content-between">
                                 <h5>Tasks</h5>
                                 <a href="#" class="text-decoration-none">View all</a>
-                            </div>
+                             </div>
+                            <p>Today</p>
+
+                            <!-- MAKE CHECKBOX ROUND -->
+                            <!-- CHANGE BADGE TO BUTTON -->
                             <ul class="list-unstyled">
-                                <li class="d-flex justify-content-between align-items-center py-2">
+                                <li class="d-flex justify-content-between align-items-center py-3">
                                     <div>
-                                        <input type="checkbox" class="form-check-input me-2">
-                                        <span>Finish ticket update</span>
+                                        <input type="text" value="Create new task" class="border-0">
                                     </div>
-                                    <span class="badge bg-danger">Urgent</span>
+                                    <span class="badge bg-secondary">+</span>
                                 </li>
+                                <hr class="dark-divider">
+
                                 <li class="d-flex justify-content-between align-items-center py-2">
                                     <div>
                                         <input type="checkbox" class="form-check-input me-2">
-                                        <span>Create new ticket example</span>
+                                        <label>Finish ticket update</label>
+                                    </div>
+                                    <span class="badge bg-warning p-2">Urgent</span>
+                                </li>
+                                <hr class="dark-divider">
+
+                                <li class="d-flex justify-content-between align-items-center py-2">
+                                    <div>
+                                        <input type="checkbox" class="form-check-input me-2">
+                                        <label>Create new ticket example</label>
                                     </div>
                                     <span class="badge bg-success">New</span>
                                 </li>
+                                <hr class="dark-divider">
+                                
                                 <li class="d-flex justify-content-between align-items-center py-2">
                                     <div>
                                         <input type="checkbox" class="form-check-input me-2" checked>
-                                        <span>Update ticket report</span>
+                                        <label>Update ticket report</label>
                                     </div>
                                     <span class="badge bg-secondary">Default</span>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-            </main>
-        </div>
-    </div>
+                        </section>
+                    </section>
+                    
+                </section>
 
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-   <script src="js/main.js"></script>
+            </main>
+
+        </section>
+    </section>
+
+    
+
 </body>
 </html>
