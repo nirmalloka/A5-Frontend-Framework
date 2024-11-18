@@ -1,6 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+
+/* text formatting */
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #f7f8fa;
+    color: #333;
+}
+
+.sidebar h4 {
+    color: #DDE2FF; 
+    font-weight: 700; 
+}
+
+h1{
+    color: #9fa2b5;
+}
+
+h2 {
+    font-size: 2rem; 
+    color: #252733;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    color: #252733;
+}
+
+h5 {
+    font-size: 1.25rem; 
+    font-weight: bold; 
+}
+
+.gray-bolder{
+    font-weight:bolder;  
+    color: #9FA2B4;
+}
+
+.gray-bold{
+    font-weight:300;  
+    color: #9FA2B4;
+}
+
+.todays-trends h1{
+    font-size: 1rem;
+}
+
 /* Sidebar Styles */
 .sidebar {
-    background-color: #2d2d2d;
+    background-color: #363740;
     color: #fff;
     min-height: 100vh;
     padding-top: 20px;
