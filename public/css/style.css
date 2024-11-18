@@ -7,6 +7,10 @@
     /*position: fixed;*/
 }
 
+.stay {
+    position: fixed;
+}
+
 .sidebar .nav-link {
     color: #ddd;
     font-size: 0.95rem;
@@ -55,18 +59,6 @@ main {
     font-size: 2rem;
     font-weight: bold;
 }
-
-.chart-placeholder{
-    height: 350px; 
-    /* width: 900px;*/
-    /* flex it for resizing */
-    background-image: url(../assets/images/full-graph.png);
-    background-size: contain;
-    width:100%;
-    background-color: #f8f9fa;
-    border: none;
-}
-
 
 .vr {
     color: gray;
