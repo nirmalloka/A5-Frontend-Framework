@@ -26,7 +26,11 @@ hr{
 
 #top-divider {
     height: 40px;
-    margin-right: 20px;
+    margin: 0px 20px 0px;
+}
+
+.icons {
+    margin: 0px 10px 0px; 
 }
 
 main {
@@ -73,3 +77,23 @@ main {
     align-self: stretch;
 }
 
+#new-badge {
+    background-color: #FEC400;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#urgent-badge {
+    background-color: #29CC97;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.grey-badge {
+    background-color: #F0F1F7;
+    color: #9FA2B4;
+    border: none;
+    border-radius: 10px;
+}
